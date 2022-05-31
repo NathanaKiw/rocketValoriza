@@ -11,3 +11,5 @@ yarn tsc -> converte typescript para javascript
 yarn add express -> adiciona express
 
 yarn add @types/express -D -> Quando aparecem três pontos na importação de uma biblioteca na maioria das vezes é pedindo para instalar a tipagem da biblioteca que está em outra biblioteca @types/express por exemplo, adiciona com dependencia de desenvolvimento
+
+yarn add ts-node-dev -D -> automatiza a converção de typescript para javascript
