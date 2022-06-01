@@ -16,6 +16,12 @@ yarn add ts-node-dev -D -> automatiza a converção de typescript para javascrip
 
 yarn add typeorm reflect-metadata sqlite3 -> adiciona orm de banco de dados sqLite
 
+yarn typeorm migration:create -n CreateUsers -> cria uma migration users
+
+yarn typeorm migration:run -> Cria tabela no banco de dados
+
+yarn typeorm migration:revert -> reverte a ultima migration
+
 \* MÉTODOS HTTP
 
 - GET => Buscar uma informação
